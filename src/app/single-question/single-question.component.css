@@ -1,0 +1,141 @@
+.conteiner
+{
+	margin:0 auto;
+	width: 650px;
+	font-family: 'Lato', sans-serif;
+}
+.main-question
+{
+    position: relative;
+}
+.profile-name a
+{
+	color: #fb4e00;
+	text-decoration: none;
+}
+.profile-name a:hover
+{
+	text-decoration: underline;
+}
+.profile-name h1
+{
+	padding: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+    font-size: 26px;
+}
+.wrapper
+{
+	color: white;
+	background-color: rgba(82, 82, 82, 0.73);
+	overflow: hidden;
+    clear: both;
+    box-shadow: 0 0px 7px 0px rgba(50, 50, 50, 0.75);
+}
+
+.header
+{
+	margin-top: 30px;
+    font-size: 12px;
+    margin-left: 56px;
+}
+.main-question-content
+{
+	float: left;
+	width: calc(80% - 39px);
+    margin-left: 38px;
+    border-left: 1px solid white;
+    margin-top: 8px;
+}
+.main-question-content p
+{
+	font-size: 14px;
+	margin-left: 14px;
+}
+.votes
+{
+	float: left;
+    border-left: 1px solid white;
+    height: 110px;
+    width: calc(20% - 1px);
+    text-align: center;
+    margin-top: 25px;
+}
+.votes-wrapper p
+{
+	margin-top:0;
+}
+.fa
+{
+	font-size:40px;
+	cursor: pointer;
+	height: 20px;
+}
+.main-image
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: -10px;
+    left: -63px;
+    box-shadow: 0 0px 7px 0px rgba(50, 50, 50, 0.75);
+}
+.btn-wrapper
+{
+	position: absolute;
+	right:50%;
+	bottom:-15px;
+	margin-right:-60px;
+}
+input
+{
+	padding: 5px;
+    width: 120px;
+    font-size: 23px;
+    border: none;
+    cursor: pointer;
+    background-color: #dc5b21;
+    color:white;
+	font-family: 'Lato', sans-serif;
+}
+.fa-sort-desc
+{
+	margin-top:-15px;
+}
+@media screen and (max-width: 750px) 
+{
+.conteiner
+{
+	margin:0 10% 0 10%;
+	width: auto;
+}
+}
+@media screen and (max-width: 550px) 
+{
+.conteiner
+{
+	margin:0;
+	width: 100%;
+}
+.main-image
+{
+	top: -63px;
+    left: 50%;
+    margin-left:-60px;
+}
+.profile-name h1
+{
+	margin-left: 20%;
+}
+.main-question-content
+{
+	border:none;
+	margin-left:0;
+}
+.votes
+{
+	border: none;
+}
+}

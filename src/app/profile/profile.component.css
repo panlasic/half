@@ -1,0 +1,231 @@
+.container
+{
+	margin:0 20% 0 20%;
+	font-family: 'Lato', sans-serif;
+}
+.name-profile
+{
+	width: 300px;
+	margin: auto;
+	text-align: center;
+}
+.name-profile
+{
+	color:#fb4e00;
+}
+.main-image
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: white;
+	margin:auto;
+}
+.orange-header
+{
+	color: #DC5B21;
+}
+.navigation
+{
+	height: 40px;
+	border-bottom:1px solid grey;
+}
+.navigation li
+{
+	float: left;
+	width: 33.33%;
+}
+.navigation li:last-child
+{
+	text-align: right;
+}
+.last-seen
+{
+	text-align: center;
+}
+.navigation ul
+{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+.question
+{
+	text-align: center;
+	font-size:35px;
+	height: 70px;
+    margin-top: 30px;
+}
+.question li
+{
+	float: left;
+}
+.question ul
+{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+.arrow
+{
+	width: 15%;
+}
+.arrow .fa
+{
+	font-size:50px;
+	color: #fb4e00;
+}
+.question-name
+{
+	width: 70%;
+}
+.question-name h2
+{
+	margin: 0;
+}
+.activity
+{
+	height: 181px;
+    clear: both;
+    margin-top: 85px;
+}
+.activity ul
+{
+	margin:0;
+	padding:0;
+}
+.activity li
+{
+    list-style-type: none;
+    float: left;
+    width: 25%;
+}
+.activity-category
+{
+	text-align: center;
+}
+.activity-category:first-child
+{
+	margin-left: 0;
+}
+.fa-users, .fa-pencil-square-o, .fa-search, .fa-question-circle
+{
+	font-size:55px;
+}
+.activity-category h3
+{
+	font-size: 30px;
+}
+.activity-wrapper
+{
+	width: 100%;
+}
+.joined-period
+{
+	margin: 60px auto;
+    width: 380px;
+    text-align: center;
+    height: 175px;
+}
+.joined-period> h4
+{
+	margin-top: 0;
+    color: #868694;
+}
+.joined-period li
+{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+.joined-period ul
+{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+.profile-img
+{
+	width: 80px;
+	height: 80px;
+	background-color: white;
+	margin: auto;
+}
+.person h4, .person h5
+{
+	margin:0;
+}
+.hottest-dis
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.hottest-dis h6
+{
+	margin:0;
+}
+.hottest-image
+{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 35px);
+    top: -42px;
+}
+.hottest-more
+{
+	list-style-type: none;
+	margin:0;
+	padding: 0px 0 25px 0;
+}
+.hottest-more h6
+{
+	font-size: 25px;
+}
+.hottest-more li
+{
+	float:left;
+	width: 25%
+}
+.guardian-article
+{
+	padding:30px;
+	font-size: 1.33em;
+    color: #DC5B21;
+}
+.guardian-article h6
+{
+	font-size: 26px;
+}
+.guardian-article h6:first-child
+{
+	font-size: 15px;
+}
+@media screen and (max-width: 725px) 
+{
+.container
+{
+	margin: auto;
+}
+.joined-period
+{
+	width: 100%;
+}
+.navigation
+{
+	height: 60px;
+}
+}
+@media screen and (min-width: 1500px) 
+{
+	.container
+{
+	width: 900px;
+	margin: auto;
+}
+}
