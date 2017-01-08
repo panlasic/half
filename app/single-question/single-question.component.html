@@ -21,9 +21,9 @@
 		</article>
 		<div class="votes">
 			<div class="votes-wrapper">
-			<i class="fa fa-sort-asc" aria-hidden="true"></i>
-			<p>15</p>
-			<i class="fa fa-sort-desc" aria-hidden="true"></i>
+			<i class="fa fa-sort-asc" aria-hidden="true" (click)="voteUp()"></i>
+			<p>{{voteValue}}</p>
+			<i class="fa fa-sort-desc" aria-hidden="true" (click)="voteDown()"></i>
 			</div>
 		</div>
 		<div class="btn-wrapper">
