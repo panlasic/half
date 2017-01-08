@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SingleQuestionComponent implements OnInit {
 
-  constructor() { }
-
+  constructor() {
+  }
   ngOnInit() {
   }
-
+  public voteValue = 0;
+  voteDown(voteValue)
+  {
+  	this.voteValue--;
+  } 
+  voteUp(voteValue)
+  {
+  	this.voteValue++;
+  }
 }

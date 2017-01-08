@@ -4,6 +4,47 @@
 	width: 650px;
 	font-family: 'Lato', sans-serif;
 }
+.nav, nav
+{
+	overflow: hidden;
+}
+nav ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.filters
+{
+	float: left;
+	width: 80%;
+}
+.sort
+{
+	float: left;
+	width: 20%;
+}
+.serach
+{
+	clear: both;
+}
+.search-questions
+{
+	float: left;
+	width: 80%;
+}
+
+.search-btn
+{
+	float: left;
+	width: 20%;
+}
+.search-btn-submit
+{
+	padding: 5px;
+	margin-left: 20px;
+	width: calc(100% - 20px);
+}
 .profile-name a
 {
 	color: #fb4e00;
@@ -23,6 +64,7 @@
 .main-question
 {
     position: relative;
+    margin-top: 75px;
 }
 h1
 {
@@ -96,7 +138,7 @@ h1
 }
 .commented
 {
-	font-size: 13px;
+	font-size: 10px;
 }
 .commented-wrapper
 {
@@ -188,7 +230,7 @@ h1
 }
 .profile-name h1
 {
-	margin-left: 20%;
+	margin-left: 10%;
 }
 .main-question-content
 {

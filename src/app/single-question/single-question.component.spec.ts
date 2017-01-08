@@ -5,6 +5,7 @@ import { DebugElement } from '@angular/core';
 
 import { SingleQuestionComponent } from './single-question.component';
 
+
 describe('SingleQuestionComponent', () => {
   let component: SingleQuestionComponent;
   let fixture: ComponentFixture<SingleQuestionComponent>;
